@@ -1,0 +1,455 @@
+
+
+/* Standard Tags */
+html *
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+pre
+{
+	font-family: 'Ubuntu Mono',monospace;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	/* ...and now for the proper property */
+	transition:.5s;
+}
+a:hover { color: DarkSalmon; text-decoration: none; font-weight: none }
+
+li {
+	list-style: none;
+}
+
+h2 {
+	text-align: center;
+	text-transform: lowercase;
+	font-size: 55px;
+	margin: 100px 0 0 0;
+}
+
+/* Common Classes */
+
+.vertical-center:before {    /* create a full-height inline block pseudo=element */
+  content: " ";
+  display: inline-block;
+  vertical-align: middle;    /* vertical alignment of the inline element */
+  height: 100%;
+}
+
+header {
+	background: #333333;
+}
+
+.ud_page {
+	background: #EEEEEE;
+}
+
+/* Containing Objects & Classes */
+
+.ud_page {
+	width: 100%;
+//    min-height: 100%;
+	overflow: hidden;
+	float: left;
+}
+
+/* Header */
+
+header {
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 40px;
+	background: #333333;
+	color: #FFFFFF;
+}
+/* header:hover {
+	height: 50px;
+} */
+
+header #id_logo {
+	float: left;
+	/*width: 150px;*/
+	height: 100%;
+	display: table;
+	overflow: auto;
+	padding-left: 1%;
+}
+
+header #id_logo span {
+	font-size: 16px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+header a {
+	color: #FFFFFF;
+}
+
+header nav {
+	float: right;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul {
+	margin: 12px 8px 0 0;
+	padding: 0;
+}
+
+header nav ul li {
+	margin: 0 10px 0 0;
+	padding: 0;
+	float: left;
+	font-size: 11px;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFFFFF;
+	word-spacing: 3px;
+}
+
+header nav ul li a {
+	text-transform: lowercase;
+	font-size: 12px;
+}
+
+/* Separator */
+.ud_h2_separator {
+	/*border: dotted;*/
+	background: #000000;
+	height: 5px;
+	width: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+/* Home Page */
+
+/* columns of same height styles */
+.row-full-height {
+  height: 100%;
+}
+.col-full-height {
+  height: 100%;
+  vertical-align: middle;
+}
+.row-same-height {
+  display: table;
+  width: 100%;
+  /* fix overflow */
+  table-layout: fixed;
+}
+.col-xs-height {
+  display: table-cell;
+  float: none !important;
+}
+@media (min-width: 768px) {
+  .col-sm-height {
+	display: table-cell;
+	float: none !important;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-height {
+	display: table-cell;
+	float: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-height {
+	display: table-cell;
+	float: none !important;
+  }
+}
+
+.row.row-grid p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+	.row.row-grid p {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+@media (min-width: 992px) {
+	.row.row-grid p {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+@media (min-width: 768px) {
+	.row.row-grid p {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+.big-image {
+	border: #000000 3px solid;
+}
+
+/* vertical alignment styles */
+.col-top {
+  vertical-align: top;
+}
+.col-middle {
+  vertical-align: middle;
+}
+.col-bottom {
+  vertical-align: bottom;
+}
+
+.account-link-container {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.account-image {
+	width: auto;
+	height: 32px;
+}
+
+/* Publications Page */
+#id_publications {
+	/*background: #555555;*/
+	/* background: white url(../png/publications_bg.png) no-repeat center center fixed; */
+	/* background: no-repeat center center fixed; */
+	/* background-size: 100% auto; */
+}
+
+.pub_description {
+	text-align: center;
+}
+
+/* .pub_description h3 {
+	font-weight: bolder;
+	margin-top: 0px;
+} */
+
+.pub_description h3 {
+	font-weight: bolder;
+	margin-top: 20px;
+	margin-bottom: 00px;
+}
+
+@media (min-width: 1200px) {
+	.pub_description h3 {
+		font-weight: bolder;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+@media (min-width: 992px) {
+	.pub_description h3 {
+		font-weight: bolder;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+@media (min-width: 768px) {
+	.pub_description h3 {
+		font-weight: bolder;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+.pub_description h4 {
+	font-weight: bold;
+}
+
+a.author-link {
+	text-decoration: none;
+	color: navy;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	/* ...and now for the proper property */
+	transition:.5s;
+}
+a.author-link:hover { color: #C67225; text-decoration: none; font-weight: none }
+
+.pub_row {
+	margin-bottom: 70px;
+}
+
+.material-block {
+	/* vertical-align: top; */
+	margin-top: 20px;
+}
+
+.material-link {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.material-link img {
+	cursor: pointer;
+	margin-top: 0px;
+	/* display: block; */
+	/* vertical-align: middle; */
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+}
+
+.pub_image_div img {
+	/* display: block;
+	vertical-align: middle; */
+	margin-left: auto;
+	margin-right: auto;
+	display: block; height: auto; width: 100%;
+}
+
+#overlay {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.8;
+	/*background:rgba(255,255,255,0.8); or just this*/
+	z-index:50;
+	/*z-index: -1;
+	position: relative;*/
+	color:#fff;
+}
+
+#yt {
+	display: none;
+	position: fixed;
+	z-index: 10000000000;
+	width: 80vw;
+	height: 45vw;
+	left: 10vw;
+	top: calc(50vh - 45vw / 2);
+}
+
+.bibtex {
+	font-family: "Ubuntu Mono";
+	position: fixed;
+	z-index: 10000000000;
+	width: 80vw;
+	height: auto;
+	left: 10vw;
+	top: 20vh;
+}
+
+/* Contact Page */
+
+.ud_contact ul {
+	/*border: solid;*/
+	text-align: center;
+	margin: 0;
+	margin-top: 40px;
+	padding: 0;
+}
+
+.ud_contact ul li {
+	margin: 0;
+	margin-top: 10px;
+	padding: 0;
+}
+
+.ud_contact ul li a {
+	color: #000000;
+}
+
+.ud_contact ul li div {
+	padding-left: 21px;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.ud_contact .ud_contact_mail {
+	background: transparent url(../png/contact_icon.svg) no-repeat left center;
+	background-size: 16px 16px;
+}
+
+.ud_contact .ud_contact_phone {
+	background: transparent url(../png/phone_icon.svg) no-repeat left center;
+	background-size: 16px 16px;
+}
+
+.ud_contact .ud_contact_location {
+	background: transparent url(../png/location_icon.svg) no-repeat left center;
+	background-size: 16px 16px;
+}
+
+#id_map {
+  width: 80vw;
+  height: 40vw;
+  max-height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  border: solid;
+}
+
+/* Footer */
+
+/* Must set position of contact section to relative such that the footer sticks to the bottom.*/
+#id_contact {
+	/* position: relative; */
+	/* background: transparent url(../png/contact_bg_.jpg) no-repeat center center fixed; */
+	/* background: no-repeat center center fixed; */
+	/* background-size: 100% auto; */
+	/* -webkit-background-size: cover; */
+	/* -moz-background-size: cover; */
+	/* -o-background-size: cover; */
+	/* background-size: cover; */
+}
+
+footer {
+	font-size: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 0 0 0 0;
+	background: #EFEFEF;
+	display:block;
+	overflow:auto;
+}
+
+footer ul {
+	padding: 0;
+}
+
+#id_meta_nav a {
+	color: #000000;
+}
+
+/*#id_copyright {
+	padding: 0;
+}
+
+#id_copyright a {
+	color: #000000;
+}*/
