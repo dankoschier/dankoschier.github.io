@@ -99,7 +99,11 @@
     <h2>Publications</h2>
     <div class="ud_h2_separator"></div>
     <div id="publication_list" class="container">
-      <div w3-include-html="publications.html"></div>
+      <script>
+        $(function () {
+          $("#includeHtml").load("publications.html");
+        });
+      </script>
     </div>
 
     <div id="bibtex_frame" class="bibtex" hidden=true>
