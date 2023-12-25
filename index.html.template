@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <title>Dan Koschier, PhD</title>
+  <meta name="author" content="Dan Koschier" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css' />
+<script src="js/scroll.js"></script>
+<script src="js/maps.js"></script>
+
+<body>
+  <!-- <div id="id_wrapper"> -->
+  <header>
+    <!-- Logo -->
+    <div class="ud_logo" id="id_logo"><span>Dan Koschier</span></div>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#id_home">Home</a></li>
+        <li><a href="#id_publications">Publications</a></li>
+        <li><a href="#id_contact">Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+
+  <!-- Website -->
+  <!-- <section id="id_wrapper"> -->
+
+  <!-- Home -->
+  <section id="id_home" class="ud_page">
+
+    <h2>Home</h2>
+    <div class="ud_h2_separator"></div>
+
+    <div class="container">
+      <div class="row row-grid">
+        <div class="row-same-height">
+          <div class="col-sm-6 col-md-6 cols-xs-12 col-sm-height col-middle">
+            <img src="png/koschier_wide.png" class="big-image" style="display: block; height: auto; width: 100%;" />
+          </div>
+          <div class="col-sm-6 col-md-6 cols-xs-12 col-sm-height col-middle">
+            <p>Currently I am a Software Engineer at <a href="http://www.facebook.com">Facebook</a>. Prior to that I've
+              worked in R&amp;D at <a href="http://www.visionrt.com">Vision RT</a> in Medical Technology and was a
+              Research Associate at the <a href="http://geometry.cs.ucl.ac.uk/">Smart Geometry Processing Group</a> at
+              University College London, UK.
+              I received my PhD from RWTH Aachen University where I was a member of the <a
+                href="https://www.animation.rwth-aachen.de">Animation Group</a> at the Visual Computing Institute.
+              Further, I received my MSc degree in Computational Engineering from TU Darmstadt, Germany.</p>
+            <div class="account-link-container row">
+              <div class="col-xs-3">
+                <a href="https://scholar.google.co.uk/citations?user=0evsBC4AAAAJ">
+                  <img class="account-image" src="png/google_scholar.svg" alt="github" />
+                </a>
+              </div>
+              <div class="col-xs-3">
+                <a href="https://github.com/dankoschier">
+                  <img class="account-image" src="png/github.svg" alt="github" />
+                </a>
+              </div>
+              <div class="col-xs-3">
+                <a href="https://www.researchgate.net/profile/Dan_Koschier">
+                  <img class="account-image" src="png/researchgate.svg" alt="researchgate" />
+                </a>
+              </div>
+              <div class="col-xs-3">
+                <a href="https://www.linkedin.com/in/dankoschier">
+                  <img class="account-image" src="png/linkedin.png" alt="linkedin" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  Publications -->
+  <section id="id_publications" class="ud_page">
+    <!-- <h2>Projects</h2>
+      <div class="ud_h2_separator"></div> -->
+
+    <h2>Publications</h2>
+    <div class="ud_h2_separator"></div>
+    <div id="publication_list" class="container">
+      {publications_html}
+    </div>
+
+    <div id="bibtex_frame" class="bibtex" hidden=true>
+    </div>
+
+    <div id="overlay" class="overlay" hidden=true></div>
+    <iframe id="yt" class="yt" src="https://www.youtube.com/embed/x_Iq2yM4FcA" frameborder="0"
+      allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen"
+      oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"
+      allowscriptaccess="always"></iframe>
+
+  </section>
+
+  <section id="id_contact" class="ud_page">
+    <h2>Contact</h2>
+    <div class="ud_h2_separator"></div>
+
+    <article class="ud_contact">
+      <ul>
+        <!--
+          <li>
+            <div class="ud_contact_phone">+44 (0) 20 310 871 35</div>
+          </li>
+          -->
+        <li>
+          <div class="ud_contact_mail">
+            <script language="JavaScript">
+              var username = "dkosc";
+              var hostname = "fb.com";
+              var linktext = username + "@" + hostname;
+              document.write("<a href='" + "ma" + "il" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+            </script>
+          </div>
+        </li>
+        <li>
+          <div class="ud_contact_location">
+            <!--Room x.xx
+              <br />-->10 Brock Street
+            <br />London NW1 3FG, UK
+          </div>
+        </li>
+      </ul>
+      <div id="id_map"></div>
+      <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNvJ3quhH_Zuq4wZBz9PDH8BBM-h4I_YY&callback=initMap"></script>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+    </footer>
+
+  </section>
+  <!-- </div> -->
+</body>
+
+</html>
+</a>
+</div>
+</footer>
+
+</section>
+<!-- </div> -->
+</body>
+
+</html>
