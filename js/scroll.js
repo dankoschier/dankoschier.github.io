@@ -63,7 +63,7 @@ $(function() {
 				overlay.style.display = "block";
 
 				yt = document.getElementById("yt");
-				yt.setAttribute("src", "https://www.youtube.com/embed/" + yt_code + "?autoplay=1&origin=http://dkoschier.de");
+				yt.setAttribute("src", "https://www.youtube.com/embed/" + yt_code + "?autoplay=1&origin=https://github.dankoschier.io");
 				yt.style.display = "block";
 			};
 		}
