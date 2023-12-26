@@ -136,7 +136,7 @@
           <div class="ud_contact_mail">
             <script language="JavaScript">
               var username = "dkosc";
-              var hostname = "fb.com";
+              var hostname = "meta.com";
               var linktext = username + "@" + hostname;
               document.write("<a href='" + "ma" + "il" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
             </script>
@@ -145,8 +145,8 @@
         <li>
           <div class="ud_contact_location">
             <!--Room x.xx
-              <br />-->10 Brock Street
-            <br />London NW1 3FG, UK
+              <br />-->10 Lewis Cubitt Walk
+            <br />London N1C 4BT, UK
           </div>
         </li>
       </ul>
