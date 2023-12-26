@@ -393,7 +393,7 @@
       "bibtex_key": "BKWK20",
       "youtube": "1u5N0eedzic",
       "annotation": null,
-      "bibtex": "@article{BKWK2020,\r\n  author = {Jan Bender and Tassilo Kugelstadt and Marcel Weiler and Dan Koschier },\r\n  title = {Implicit Frictional Boundary Handling for SPH},\r\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\r\n  year = {2020},\r\n  publisher = {IEEE},\r\n  volume={26},\r\n  number={10},\r\n  pages={2982-2993},\r\n  doi={10.1109/TVCG.2020.3004245},\r\n}\r\n\r\n",
+      "bibtex": "@article{BKWK20,\r\n  author = {Jan Bender and Tassilo Kugelstadt and Marcel Weiler and Dan Koschier },\r\n  title = {Implicit Frictional Boundary Handling for SPH},\r\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\r\n  year = {2020},\r\n  publisher = {IEEE},\r\n  volume={26},\r\n  number={10},\r\n  pages={2982-2993},\r\n  doi={10.1109/TVCG.2020.3004245},\r\n}\r\n\r\n",
       "file_url": "https://animation.rwth-aachen.de/media/papers/67/2020-TVCG-ImplicitBoundaryHandling.pdf"
     },
     {
@@ -411,6 +411,22 @@
       "annotation": null,
       "bibtex": "@inproceedings{KBST19,\r\n  title = {Smoothed Particle Hydrodynamics for Physically-Based Simulation of Fluids and Solids},\r\n  author = {Dan Koschier and Jan Bender and Barbara Solenthaler and Matthias Teschner},\r\n  year = {2019},\r\n  booktitle = {EUROGRAPHICS 2019 Tutorials},\r\n  publisher = {Eurographics Association}\r\n}\r\n",
       "file_url": "https://sph-tutorial.physics-simulation.org/"
+    },
+    {
+      "title": "A Survey on SPH Methods in Computer Graphics",
+      "authors": [
+        "DK",
+        "JB",
+        "BS",
+        "MT"
+      ],
+      "year": 2022,
+      "journal_id": "CGF",
+      "bibtex_key": "KBST22",
+      "youtube": null,
+      "annotation": null,
+      "bibtex": "@article{KBST2022,\r\n  journal = {Computer Graphics Forum},\r\n  title = {{A Survey on SPH Methods in Computer Graphics}},\r\n  author = {Koschier, Dan and Bender, Jan and Solenthaler, Barbara and Teschner, \r\n  Matthias},\r\n  year = {2022},\r\n  volume ={41},\r\n  number = {2},\r\n  publisher = {The Eurographics Association and John Wiley & Sons Ltd.},\r\n  ISSN = {1467-8659},\r\n  DOI = {10.1111/cgf.14508},\r\n}",
+      "file_url": "https://animation.rwth-aachen.de/media/papers/77/2022-CGF-STAR_SPH.pdf"
     }
   ]
 }
