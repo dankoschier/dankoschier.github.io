@@ -57,7 +57,7 @@ $(function() {
 		var video_icon = document.getElementById("video_icon_" + obj.id);
 		if (video_icon)
 		{
-			var yt_code = obj.getAttribute("ytcode");
+			var yt_code = obj.getAttribute("yt_code");
 			video_icon.onclick = function() {
 				overlay = document.getElementById("overlay");
 				overlay.style.display = "block";
