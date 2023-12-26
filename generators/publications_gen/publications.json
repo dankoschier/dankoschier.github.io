@@ -166,7 +166,7 @@
       "youtube": "P82qmTAahg0",
       "annotation": null,
       "bibtex": "@InProceedings{KB17,\r\n  author    = {Dan Koschier and Jan Bender},\r\n  title     = {Density Maps for Improved SPH Boundary Handling},\r\n  booktitle = {ACM SIGGRAPH/Eurographics Symposium on Computer Animation},\r\n  year      = {2017},\r\n  pages     = {1--10},\r\n  month     = jul,\r\n}",
-      "file_url": null
+      "file_url": "https://animation.rwth-aachen.de/media/papers/kb17.pdf"
     },
     {
       "title": "Robust eXtended Finite Elements for Complex Cutting of Deformables",
@@ -181,7 +181,7 @@
       "youtube": "ucRVbAwY_gY",
       "annotation": null,
       "bibtex": "@Article{KBT17,\r\n  author  = {Koschier, Dan and Bender, Jan and Thuerey, Nils},\r\n  title   = {{Robust eXtended Finite Elements for Complex Cutting of Deformables}},\r\n  journal = {ACM Transactions on Graphics},\r\n  year    = {2017},\r\n  volume  = {36},\r\n  number  = {4},\r\n  pages   = {55:1--55:13},\r\n}\r\n",
-      "file_url": null
+      "file_url": "https://animation.rwth-aachen.de/media/papers/2017-SIGGRAPH-XFEM.pdf"
     },
     {
       "title": "An hp-adaptive Discretization Algorithm for Signed Distance Field Generation",
@@ -197,7 +197,7 @@
       "youtube": "x_Iq2yM4FcA",
       "annotation": null,
       "bibtex": "@Article{KDBB17,\r\n  author  = {Koschier, Dan and Deul, Crispin and Brand, Magnus and Bender, Jan},\r\n  title   = {An hp-Adaptive Discretization Algorithm for Signed Distance Field Generation},\r\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\r\n  year    = {2017},\r\n  volume  = {23},\r\n  number  = {10},\r\n  pages   = {2208--2221},\r\n  issn    = {1077-2626},\r\n  doi     = {10.1109/TVCG.2017.2730202},\r\n}\r\n",
-      "file_url": null
+      "file_url": "https://animation.rwth-aachen.de/media/papers/2017-TVCG-HPDistanceFields.pdf"
     },
     {
       "title": "A Micropolar Material Model for Turbulent SPH Fluids",
@@ -213,7 +213,7 @@
       "youtube": "fsvDbzEui3w",
       "annotation": "(Best Paper Award)",
       "bibtex": "@InProceedings{BKKW17,\r\n  author    = {Jan Bender and Dan Koschier and Tassilo Kugelstadt and Marcel Weiler},\r\n  title     = {A Micropolar Material Model for Turbulent SPH Fluids},\r\n  booktitle = {ACM SIGGRAPH/Eurographics Symposium on Computer Animation},\r\n  year      = {2017},\r\n  pages     = {1--8},\r\n  month     = jul,\r\n}\r\n",
-      "file_url": null
+      "file_url": "https://animation.rwth-aachen.de/media/papers/2017-SCA-MicroPolar.pdf"
     },
     {
       "title": "Divergence-Free SPH for Incompressible and Viscous Fluids",
@@ -227,7 +227,7 @@
       "youtube": "tl4mx0TtaAc",
       "annotation": null,
       "bibtex": "@Article{BK17,\r\n  author  = {Bender, Jan and Koschier, Dan},\r\n  title   = {{Divergence-Free SPH for Incompressible and Viscous Fluids}},\r\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\r\n  year    = {2017},\r\n  volume  = {23},\r\n  number  = {3},\r\n  pages   = {1193--1206},\r\n  doi     = {10.1109/TVCG.2016.2578335},\r\n  url     = {http://ieeexplore.ieee.org/document/7487018/},\r\n}\r\n",
-      "file_url": null
+      "file_url": "https://animation.rwth-aachen.de/media/papers/2017-TVCG-ViscousDFSPH.pdf"
     },
     {
       "title": "Hierarchical hp-adaptive Signed Distance Fields",
@@ -242,7 +242,7 @@
       "youtube": "x_Iq2yM4FcA",
       "annotation": null,
       "bibtex": "@InProceedings{KDB16,\r\n  author    = {Koschier, Dan and Deul, Crispin and Bender, Jan},\r\n  title     = {{Hierarchical hp-Adaptive Signed Distance Fields}},\r\n  booktitle = {ACM SIGGRAPH/Eurographics Symposium on Computer Animation},\r\n  year      = {2016},\r\n  pages     = {1--10},\r\n}\r\n",
-      "file_url": null
+      "file_url": "https://animation.rwth-aachen.de/media/papers/2016-SCA-HPSDF.pdf"
     },
     {
       "title": "Projective Fluids",
@@ -257,7 +257,7 @@
       "youtube": "AyPczc1Er9g",
       "annotation": null,
       "bibtex": "@InProceedings{WKB16,\r\n  author    = {Weiler, Marcel and Koschier, Dan and Bender, Jan},\r\n  title     = {Projective Fluids},\r\n  booktitle = {ACM Motion in Games},\r\n  year      = {2016},\r\n  pages     = {1--6},\r\n}\r\n",
-      "file_url": null
+      "file_url": "https://animation.rwth-aachen.de/media/papers/2016_MIG_ProjectiveFluids.pdf"
     },
     {
       "title": "Divergence-Free Smoothed Particle Hydrodynamics",
@@ -271,7 +271,7 @@
       "youtube": "POnmzzhc5E0",
       "annotation": null,
       "bibtex": "@InProceedings{BK15,\r\n  author    = {Bender, Jan and Koschier, Dan},\r\n  title     = {{Divergence-Free Smoothed Particle Hydrodynamics}},\r\n  booktitle = {ACM SIGGRAPH/Eurographics Symposium on Computer Animation},\r\n  year      = {2015},\r\n  pages     = {1--9},\r\n}\r\n",
-      "file_url": null
+      "file_url": "https://animation.rwth-aachen.de/media/papers/2015-SCA-DFSPH.pdf"
     },
     {
       "title": "Adaptive Tetrahedral Meshes for Brittle Fracture Simulation",
@@ -286,7 +286,7 @@
       "youtube": "OMGOGLpZ8Rg",
       "annotation": null,
       "bibtex": "@InProceedings{KLB14,\r\n  author    = {Koschier, Dan and Lipponer, Sebastian and Bender, Jan},\r\n  title     = {{Adaptive Tetrahedral Meshes for Brittle Fracture Simulation}},\r\n  booktitle = {ACM SIGGRAPH/Eurographics Symposium on Computer Animation},\r\n  year      = {2014},\r\n  pages     = {1--10},\r\n}\r\n",
-      "file_url": null
+      "file_url": "https://animation.rwth-aachen.de/media/papers/2014-SCA-AdaptiveBrittleFracture.pdf"
     },
     {
       "title": "Position Based Simulation of Continuous Materials",
@@ -302,7 +302,7 @@
       "youtube": "pyPujKwIYac",
       "annotation": null,
       "bibtex": "@Article{BKCW14,\r\n  author  = {Bender, Jan and Koschier, Dan and Charrier, Patrick and Weber, Daniel},\r\n  title   = {{Position-Based Simulation of Continuous Materials}},\r\n  journal = {Computers \\& Graphics},\r\n  year    = {2014},\r\n  volume  = {44},\r\n  number  = {1},\r\n  pages   = {1--10},\r\n  doi     = {10.1016/j.cag.2014.07.004},\r\n}\r\n",
-      "file_url": null
+      "file_url": "https://animation.rwth-aachen.de/media/papers/2014-CAG-PBER.pdf"
     },
     {
       "title": "A Physically Consistent Implicit Viscosity Solver for SPH Fluids",
@@ -318,7 +318,7 @@
       "youtube": "D_nEhix1G-w",
       "annotation": "(Eurographics)",
       "bibtex": "@Article{WKBB18,\r\n  author  = {Marcel Weiler and Dan Koschier and Magnus Brand and Jan Bender},\r\n  title   = {A Physically Consistent Implicit Viscosity Solver for SPH Fluids},\r\n  journal = {Computer Graphics Forum},\r\n  year    = {2018},\r\n  volume  = {37},\r\n  number  = {2},\r\n}",
-      "file_url": null
+      "file_url": "https://animation.rwth-aachen.de/media/papers/2018-EG-ImplicitVisco.pdf"
     },
     {
       "title": "Turbulent Micropolar SPH Fluids with Foam",
@@ -334,7 +334,7 @@
       "youtube": "elZieJNBYqk",
       "annotation": "",
       "bibtex": "@Article{BKKW18,\r\n  author  = {Bender, Jan and Koschier, Dan and Kugelstadt, Tassilo and Weiler, Marcel},\r\n  title   = {Turbulent Micropolar SPH Fluids with Foam},\r\n  journal = {IEEE Transactions on Visualization and Computer Graphics},\r\n  year    = {2018},\r\n  volume  = {},\r\n  number  = {},\r\n  pages   = {},\r\n  issn    = {},\r\n  doi     = {},\r\n}\r\n",
-      "file_url": null
+      "file_url": "https://animation.rwth-aachen.de/media/papers/2018-TVCG-MPSPH.pdf"
     },
     {
       "title": "Fast Corotated FEM using Operator Splitting",
@@ -349,7 +349,7 @@
       "youtube": "Q5W0x40QRJE",
       "annotation": "(SCA)",
       "bibtex": "@Article{KKB18,\r\n  author  = {Tassilo Kugelstadt and Dan Koschier and Jan Bender},\r\n  title   = {Fast Corotated FEM using Operator Splitting},\r\n  journal = {Computer Graphics Forum (SCA)},\r\n  year    = {2018},\r\n  volume  = {37},\r\n  number  = {8},\r\n}",
-      "file_url": null
+      "file_url": "https://animation.rwth-aachen.de/media/papers/fast-corotated-fem-using-operator-splitting/2018-SCA-FastCorot.pdf"
     },
     {
       "title": "Interfaces and Boundaries in Physics Based Simulation of Solids and Fluids",
@@ -410,7 +410,7 @@
       "youtube": null,
       "annotation": null,
       "bibtex": "@inproceedings{KBST19,\r\n  title = {Smoothed Particle Hydrodynamics for Physically-Based Simulation of Fluids and Solids},\r\n  author = {Dan Koschier and Jan Bender and Barbara Solenthaler and Matthias Teschner},\r\n  year = {2019},\r\n  booktitle = {EUROGRAPHICS 2019 Tutorials},\r\n  publisher = {Eurographics Association}\r\n}\r\n",
-      "file_url": "https://interactivecomputergraphics.github.io/SPH-Tutorial/"
+      "file_url": "https://sph-tutorial.physics-simulation.org/"
     }
   ]
 }
